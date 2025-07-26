@@ -1,0 +1,182 @@
+[
+  {
+    "student_id": 1,
+    "first_name": "Henry",
+    "last_name": "Kelly",
+    "dob": "2004-05-09",
+    "email": "cervanteshannah@hotmail.com",
+    "mobile_no": "0280080219",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"
+  },
+  {
+    "student_id": 2,
+    "first_name": "Tommy",
+    "last_name": "Baird",
+    "dob": "2004-10-31",
+    "email": "santiagorichard@weaver.com",
+    "mobile_no": "0900462421",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 3,
+    "first_name": "Nicholas",
+    "last_name": "Woodward",
+    "dob": "2003-11-15",
+    "email": "robinsonemily@gmail.com",
+    "mobile_no": "9565404020",
+    "profile_pic_url": "C:/Users/mahad/Desktop/Express/task main/uploads/mok705w6bjdqfyj20lx6wwnzn.jpg"
+  },
+  {
+    "student_id": 4,
+    "first_name": "Kathy",
+    "last_name": "Mcclain",
+    "dob": "2006-01-27",
+    "email": "graceharris@brown.com",
+    "mobile_no": "9432321119",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 5,
+    "first_name": "Theresa",
+    "last_name": "Jenkins",
+    "dob": "2004-09-16",
+    "email": "youngallison@alexander.net",
+    "mobile_no": "5120912306",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 6,
+    "first_name": "Joseph",
+    "last_name": "Alvarado",
+    "dob": "2006-09-12",
+    "email": "shawnking@hardy-robbins.org",
+    "mobile_no": "7782110321",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 7,
+    "first_name": "Sarah",
+    "last_name": "Stevens",
+    "dob": "2001-02-11",
+    "email": "rnguyen@wright-jimenez.org",
+    "mobile_no": "0886647957",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 8,
+    "first_name": "John",
+    "last_name": "Henry",
+    "dob": "2004-08-12",
+    "email": "drakedawn@yahoo.com",
+    "mobile_no": "7295858566",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 9,
+    "first_name": "Ian",
+    "last_name": "Mccoy",
+    "dob": "2003-07-05",
+    "email": "peter98@yahoo.com",
+    "mobile_no": "9246716167",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"
+  },
+  {
+    "student_id": 10,
+    "first_name": "Amanda",
+    "last_name": "Logan",
+    "dob": "2000-09-25",
+    "email": "vlozano@mccoy-rodriguez.com",
+    "mobile_no": "4773776164",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"
+  },
+  {
+    "student_id": 11,
+    "first_name": "James",
+    "last_name": "Fitzgerald",
+    "dob": "2004-09-13",
+    "email": "cynthiawilson@hotmail.com",
+    "mobile_no": "1089641249",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 12,
+    "first_name": "Joseph",
+    "last_name": "Hensley",
+    "dob": "2006-03-30",
+    "email": "murrayjennifer@osborne.com",
+    "mobile_no": "3018983764",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 13,
+    "first_name": "Danielle",
+    "last_name": "Barnes",
+    "dob": "2000-02-03",
+    "email": "jamesingram@ford-hernandez.com",
+    "mobile_no": "9323791709",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"
+  },
+  {
+    "student_id": 14,
+    "first_name": "Gregory",
+    "last_name": "Peterson",
+    "dob": "2005-06-27",
+    "email": "ijackson@gmail.com",
+    "mobile_no": "5841497312",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 15,
+    "first_name": "Deborah",
+    "last_name": "Ryan",
+    "dob": "2003-06-18",
+    "email": "theresa75@gmail.com",
+    "mobile_no": "6386802611",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 16,
+    "first_name": "Matthew",
+    "last_name": "Mitchell",
+    "dob": "2000-06-09",
+    "email": "jonjackson@hotmail.com",
+    "mobile_no": "4344231128",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 17,
+    "first_name": "Thomas",
+    "last_name": "Roberts",
+    "dob": "2004-04-13",
+    "email": "stephaniegomez@walter-miller.info",
+    "mobile_no": "5369423475",
+    "profile_pic_url": "https://placekitten.com/100/100"
+  },
+  {
+    "student_id": 18,
+    "first_name": "Andrea",
+    "last_name": "Gardner",
+    "dob": "2004-11-09",
+    "email": "tara09@gmail.com",
+    "mobile_no": "0461491028",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 19,
+    "first_name": "Joshua",
+    "last_name": "Bradford",
+    "dob": "1999-12-29",
+    "email": "rachel89@barker-austin.info",
+    "mobile_no": "8550196876",
+    "profile_pic_url": "https://dummyimage.com/100x100"
+  },
+  {
+    "student_id": 20,
+    "first_name": "Darrell",
+    "last_name": "Kim",
+    "dob": "2003-08-10",
+    "email": "jason62@hotmail.com",
+    "mobile_no": "1688747440",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  }
+]

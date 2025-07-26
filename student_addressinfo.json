@@ -1,0 +1,162 @@
+[
+  {
+    "id": 101,
+    "address_line": "9683 Fischer Walks Suite 412",
+    "city": "Maryberg",
+    "state": "Indiana",
+    "pincode": "52494",
+    "student_id": 1
+  },
+  {
+    "id": 102,
+    "address_line": "3996 Davidson Turnpike Apt. 296",
+    "city": "East Emilyborough",
+    "state": "Tennessee",
+    "pincode": "74627",
+    "student_id": 2
+  },
+  {
+    "id": 103,
+    "address_line": "82095 Monica Fork Apt. 863",
+    "city": "North Manuelhaven",
+    "state": "Oregon",
+    "pincode": "81151",
+    "student_id": 3
+  },
+  {
+    "id": 104,
+    "address_line": "91852 Samantha Meadows",
+    "city": "North Lynn",
+    "state": "Maine",
+    "pincode": "82315",
+    "student_id": 4
+  },
+  {
+    "id": 105,
+    "address_line": "8620 Moore Creek Suite 457",
+    "city": "Scottborough",
+    "state": "Mississippi",
+    "pincode": "12902",
+    "student_id": 5
+  },
+  {
+    "id": 106,
+    "address_line": "2261 Phillips Landing Suite 889",
+    "city": "Angelicaport",
+    "state": "Georgia",
+    "pincode": "58056",
+    "student_id": 6
+  },
+  {
+    "id": 107,
+    "address_line": "60527 Tyler Vista",
+    "city": "Elizabethberg",
+    "state": "New Hampshire",
+    "pincode": "69760",
+    "student_id": 7
+  },
+  {
+    "id": 108,
+    "address_line": "76017 Jonathan Cove Suite 941",
+    "city": "Sweeneyhaven",
+    "state": "Georgia",
+    "pincode": "92439",
+    "student_id": 8
+  },
+  {
+    "id": 109,
+    "address_line": "41960 Clifford Inlet Suite 481",
+    "city": "Port Stevenshire",
+    "state": "Michigan",
+    "pincode": "26157",
+    "student_id": 9
+  },
+  {
+    "id": 110,
+    "address_line": "6213 Jackson Freeway Suite 536",
+    "city": "Gonzalezton",
+    "state": "Arkansas",
+    "pincode": "34225",
+    "student_id": 10
+  },
+  {
+    "id": 111,
+    "address_line": "9190 Connie Course Apt. 237",
+    "city": "South Brookeview",
+    "state": "Arizona",
+    "pincode": "50794",
+    "student_id": 11
+  },
+  {
+    "id": 112,
+    "address_line": "655 Ryan Garden",
+    "city": "Port Steven",
+    "state": "Delaware",
+    "pincode": "69268",
+    "student_id": 12
+  },
+  {
+    "id": 113,
+    "address_line": "43491 Daniel Trail Suite 768",
+    "city": "Port Douglasborough",
+    "state": "Nevada",
+    "pincode": "67969",
+    "student_id": 13
+  },
+  {
+    "id": 114,
+    "address_line": "97875 Alicia Parkways Suite 351",
+    "city": "Russellview",
+    "state": "North Dakota",
+    "pincode": "72942",
+    "student_id": 14
+  },
+  {
+    "id": 115,
+    "address_line": "67863 Mendoza Track",
+    "city": "Jenniferfort",
+    "state": "Virginia",
+    "pincode": "92501",
+    "student_id": 15
+  },
+  {
+    "id": 116,
+    "address_line": "28615 Walker Cliffs Suite 239",
+    "city": "Megantown",
+    "state": "Oklahoma",
+    "pincode": "34209",
+    "student_id": 16
+  },
+  {
+    "id": 117,
+    "address_line": "0084 Olson Locks",
+    "city": "Lindaside",
+    "state": "Massachusetts",
+    "pincode": "61753",
+    "student_id": 17
+  },
+  {
+    "id": 118,
+    "address_line": "79224 Tyler Flats",
+    "city": "Dianeshire",
+    "state": "North Dakota",
+    "pincode": "33510",
+    "student_id": 18
+  },
+  {
+    "id": 119,
+    "address_line": "0178 Audrey Skyway Suite 460",
+    "city": "Freemanfurt",
+    "state": "Minnesota",
+    "pincode": "97196",
+    "student_id": 19
+  },
+  {
+    "id": 120,
+    "address_line": "16023 Nicholas Ramp",
+    "city": "East Michaelmouth",
+    "state": "South Dakota",
+    "pincode": "09090",
+    "student_id": 20
+  }
+]

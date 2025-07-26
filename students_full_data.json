@@ -1,0 +1,562 @@
+[
+  {
+    "master":{"student_id": 1,
+    "first_name": "Henry",
+    "last_name": "Kelly",
+    "dob": "2004-05-09",
+    "email": "cervanteshannah@hotmail.com",
+    "mobile_no": "0280080219",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"},
+    "address": {
+      "id": 101,
+      "address_line": "9683 Fischer Walks Suite 412",
+      "city": "Maryberg",
+      "state": "Indiana",
+      "pincode": "52494"
+    },
+    "education": {
+      "id": 201,
+      "course_name": "BTech",
+      "institute_name": "White-Gonzalez",
+      "year_of_passing": 2019,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 301,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 2,
+    "first_name": "Tommy",
+    "last_name": "Baird",
+    "dob": "2004-10-31",
+    "email": "santiagorichard@weaver.com",
+    "mobile_no": "0900462421",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 102,
+      "address_line": "3996 Davidson Turnpike Apt. 296",
+      "city": "East Emilyborough",
+      "state": "Tennessee",
+      "pincode": "74627"
+    },
+    "education": {
+      "id": 202,
+      "course_name": "BBA",
+      "institute_name": "Riley, Hernandez and Myers",
+      "year_of_passing": 2022,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 302,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+    "master":{"student_id": 3,
+    "first_name": "Nicholas",
+    "last_name": "Woodward",
+    "dob": "2003-11-15",
+    "email": "robinsonemily@gmail.com",
+    "mobile_no": "9565404020",
+    "profile_pic_url": "https://placekitten.com/100/100"},
+    "address": {
+      "id": 103,
+      "address_line": "82095 Monica Fork Apt. 863",
+      "city": "North Manuelhaven",
+      "state": "Oregon",
+      "pincode": "81151"
+    },
+    "education": {
+      "id": 203,
+      "course_name": "BSc IT",
+      "institute_name": "White-Chase",
+      "year_of_passing": 2025,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 303,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 4,
+    "first_name": "Kathy",
+    "last_name": "Mcclain",
+    "dob": "2006-01-27",
+    "email": "graceharris@brown.com",
+    "mobile_no": "9432321119",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 104,
+      "address_line": "91852 Samantha Meadows",
+      "city": "North Lynn",
+      "state": "Maine",
+      "pincode": "82315"
+    },
+    "education": {
+      "id": 204,
+      "course_name": "BTech",
+      "institute_name": "Harmon PLC",
+      "year_of_passing": 2019,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 304,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+    "master":{"student_id": 5,
+    "first_name": "Theresa",
+    "last_name": "Jenkins",
+    "dob": "2004-09-16",
+    "email": "youngallison@alexander.net",
+    "mobile_no": "5120912306",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 105,
+      "address_line": "8620 Moore Creek Suite 457",
+      "city": "Scottborough",
+      "state": "Mississippi",
+      "pincode": "12902"
+    },
+    "education": {
+      "id": 205,
+      "course_name": "BSc IT",
+      "institute_name": "Harris Ltd",
+      "year_of_passing": 2022,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 305,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+    "master":{"student_id": 6,
+    "first_name": "Joseph",
+    "last_name": "Alvarado",
+    "dob": "2006-09-12",
+    "email": "shawnking@hardy-robbins.org",
+    "mobile_no": "7782110321",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 106,
+      "address_line": "2261 Phillips Landing Suite 889",
+      "city": "Angelicaport",
+      "state": "Georgia",
+      "pincode": "58056"
+    },
+    "education": {
+      "id": 206,
+      "course_name": "BTech",
+      "institute_name": "Hernandez PLC",
+      "year_of_passing": 2021,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 306,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 7,
+    "first_name": "Sarah",
+    "last_name": "Stevens",
+    "dob": "2001-02-11",
+    "email": "rnguyen@wright-jimenez.org",
+    "mobile_no": "0886647957",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 107,
+      "address_line": "60527 Tyler Vista",
+      "city": "Elizabethberg",
+      "state": "New Hampshire",
+      "pincode": "69760"
+    },
+    "education": {
+      "id": 207,
+      "course_name": "BSc IT",
+      "institute_name": "Hernandez, Miller and Jones",
+      "year_of_passing": 2024,
+      "grade": "A"
+    },
+    "attendance": {
+      "id": 307,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+    "master":{"student_id": 8,
+    "first_name": "John",
+    "last_name": "Henry",
+    "dob": "2004-08-12",
+    "email": "drakedawn@yahoo.com",
+    "mobile_no": "7295858566",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 108,
+      "address_line": "76017 Jonathan Cove Suite 941",
+      "city": "Sweeneyhaven",
+      "state": "Georgia",
+      "pincode": "92439"
+    },
+    "education": {
+      "id": 208,
+      "course_name": "BA",
+      "institute_name": "Flores-Patrick",
+      "year_of_passing": 2024,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 308,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 9,
+    "first_name": "Ian",
+    "last_name": "Mccoy",
+    "dob": "2003-07-05",
+    "email": "peter98@yahoo.com",
+    "mobile_no": "9246716167",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"},
+    "address": {
+      "id": 109,
+      "address_line": "41960 Clifford Inlet Suite 481",
+      "city": "Port Stevenshire",
+      "state": "Michigan",
+      "pincode": "26157"
+    },
+    "education": {
+      "id": 209,
+      "course_name": "BSc IT",
+      "institute_name": "Henderson Group",
+      "year_of_passing": 2020,
+      "grade": "A"
+    },
+    "attendance": {
+      "id": 309,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 10,
+    "first_name": "Amanda",
+    "last_name": "Logan",
+    "dob": "2000-09-25",
+    "email": "vlozano@mccoy-rodriguez.com",
+    "mobile_no": "4773776164",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"},
+    "address": {
+      "id": 110,
+      "address_line": "6213 Jackson Freeway Suite 536",
+      "city": "Gonzalezton",
+      "state": "Arkansas",
+      "pincode": "34225"
+    },
+    "education": {
+      "id": 210,
+      "course_name": "BTech",
+      "institute_name": "Johnson, Baldwin and Allen",
+      "year_of_passing": 2021,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 310,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+    "master":{"student_id": 11,
+    "first_name": "James",
+    "last_name": "Fitzgerald",
+    "dob": "2004-09-13",
+    "email": "cynthiawilson@hotmail.com",
+    "mobile_no": "1089641249",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 111,
+      "address_line": "9190 Connie Course Apt. 237",
+      "city": "South Brookeview",
+      "state": "Arizona",
+      "pincode": "50794"
+    },
+    "education": {
+      "id": 211,
+      "course_name": "BCom",
+      "institute_name": "Griffith Inc",
+      "year_of_passing": 2022,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 311,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+    "master":{"student_id": 12,
+    "first_name": "Joseph",
+    "last_name": "Hensley",
+    "dob": "2006-03-30",
+    "email": "murrayjennifer@osborne.com",
+    "mobile_no": "3018983764",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 112,
+      "address_line": "655 Ryan Garden",
+      "city": "Port Steven",
+      "state": "Delaware",
+      "pincode": "69268"
+    },
+    "education": {
+      "id": 212,
+      "course_name": "BSc IT",
+      "institute_name": "Farrell Inc",
+      "year_of_passing": 2021,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 312,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 13,
+    "first_name": "Danielle",
+    "last_name": "Barnes",
+    "dob": "2000-02-03",
+    "email": "jamesingram@ford-hernandez.com",
+    "mobile_no": "9323791709",
+    "profile_pic_url": "https://www.lorempixel.com/100/100"},
+    "address": {
+      "id": 113,
+      "address_line": "43491 Daniel Trail Suite 768",
+      "city": "Port Douglasborough",
+      "state": "Nevada",
+      "pincode": "67969"
+    },
+    "education": {
+      "id": 213,
+      "course_name": "BCom",
+      "institute_name": "Ferguson-Patel",
+      "year_of_passing": 2019,
+      "grade": "A"
+    },
+    "attendance": {
+      "id": 313,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+   "master":{ "student_id": 14,
+    "first_name": "Gregory",
+    "last_name": "Peterson",
+    "dob": "2005-06-27",
+    "email": "ijackson@gmail.com",
+    "mobile_no": "5841497312",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 114,
+      "address_line": "97875 Alicia Parkways Suite 351",
+      "city": "Russellview",
+      "state": "North Dakota",
+      "pincode": "72942"
+    },
+    "education": {
+      "id": 214,
+      "course_name": "BSc IT",
+      "institute_name": "Leon-Brooks",
+      "year_of_passing": 2020,
+      "grade": "A"
+    },
+    "attendance": {
+      "id": 314,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+   "master":{ "student_id": 15,
+    "first_name": "Deborah",
+    "last_name": "Ryan",
+    "dob": "2003-06-18",
+    "email": "theresa75@gmail.com",
+    "mobile_no": "6386802611",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 115,
+      "address_line": "67863 Mendoza Track",
+      "city": "Jenniferfort",
+      "state": "Virginia",
+      "pincode": "92501"
+    },
+    "education": {
+      "id": 215,
+      "course_name": "BSc IT",
+      "institute_name": "Miller-Baker",
+      "year_of_passing": 2020,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 315,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+   "master":{ "student_id": 16,
+    "first_name": "Matthew",
+    "last_name": "Mitchell",
+    "dob": "2000-06-09",
+    "email": "jonjackson@hotmail.com",
+    "mobile_no": "4344231128",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 116,
+      "address_line": "28615 Walker Cliffs Suite 239",
+      "city": "Megantown",
+      "state": "Oklahoma",
+      "pincode": "34209"
+    },
+    "education": {
+      "id": 216,
+      "course_name": "BTech",
+      "institute_name": "Williams-Carpenter",
+      "year_of_passing": 2019,
+      "grade": "A"
+    },
+    "attendance": {
+      "id": 316,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+   "master":{ "student_id": 17,
+    "first_name": "Thomas",
+    "last_name": "Roberts",
+    "dob": "2004-04-13",
+    "email": "stephaniegomez@walter-miller.info",
+    "mobile_no": "5369423475",
+    "profile_pic_url": "https://placekitten.com/100/100"},
+    "address": {
+      "id": 117,
+      "address_line": "0084 Olson Locks",
+      "city": "Lindaside",
+      "state": "Massachusetts",
+      "pincode": "61753"
+    },
+    "education": {
+      "id": 217,
+      "course_name": "BSc IT",
+      "institute_name": "Moore, Flowers and Lewis",
+      "year_of_passing": 2024,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 317,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  },
+  {
+    "master":{"student_id": 18,
+    "first_name": "Andrea",
+    "last_name": "Gardner",
+    "dob": "2004-11-09",
+    "email": "tara09@gmail.com",
+    "mobile_no": "0461491028",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 118,
+      "address_line": "79224 Tyler Flats",
+      "city": "Dianeshire",
+      "state": "North Dakota",
+      "pincode": "33510"
+    },
+    "education": {
+      "id": 218,
+      "course_name": "BA",
+      "institute_name": "Hayes, Carlson and Williamson",
+      "year_of_passing": 2022,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 318,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+   "master":{ "student_id": 19,
+    "first_name": "Joshua",
+    "last_name": "Bradford",
+    "dob": "1999-12-29",
+    "email": "rachel89@barker-austin.info",
+    "mobile_no": "8550196876",
+    "profile_pic_url": "https://dummyimage.com/100x100"},
+    "address": {
+      "id": 119,
+      "address_line": "0178 Audrey Skyway Suite 460",
+      "city": "Freemanfurt",
+      "state": "Minnesota",
+      "pincode": "97196"
+    },
+    "education": {
+      "id": 219,
+      "course_name": "BSc IT",
+      "institute_name": "Murray, Franco and Davies",
+      "year_of_passing": 2022,
+      "grade": "B"
+    },
+    "attendance": {
+      "id": 319,
+      "date": "2025-05-11",
+      "status": "Present"
+    }
+  },
+  {
+   "master":{ "student_id": 20,
+    "first_name": "Darrell",
+    "last_name": "Kim",
+    "dob": "2003-08-10",
+    "email": "jason62@hotmail.com",
+    "mobile_no": "1688747440",
+    "profile_pic_url": "https://placeimg.com/100/100/any"},
+    "address": {
+      "id": 120,
+      "address_line": "16023 Nicholas Ramp",
+      "city": "East Michaelmouth",
+      "state": "South Dakota",
+      "pincode": "09090"
+    },
+    "education": {
+      "id": 220,
+      "course_name": "BTech",
+      "institute_name": "Rivera, Cohen and Garcia",
+      "year_of_passing": 2022,
+      "grade": "C"
+    },
+    "attendance": {
+      "id": 320,
+      "date": "2025-05-11",
+      "status": "Absent"
+    }
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 201,
+    "course_name": "BTech",
+    "institute_name": "White-Gonzalez",
+    "year_of_passing": 2019,
+    "grade": "B",
+    "student_id": 1
+  },
+  {
+    "id": 202,
+    "course_name": "BBA",
+    "institute_name": "Riley, Hernandez and Myers",
+    "year_of_passing": 2022,
+    "grade": "B",
+    "student_id": 2
+  },
+  {
+    "id": 203,
+    "course_name": "BSc IT",
+    "institute_name": "White-Chase",
+    "year_of_passing": 2025,
+    "grade": "B",
+    "student_id": 3
+  },
+  {
+    "id": 204,
+    "course_name": "BTech",
+    "institute_name": "Harmon PLC",
+    "year_of_passing": 2019,
+    "grade": "B",
+    "student_id": 4
+  },
+  {
+    "id": 205,
+    "course_name": "BSc IT",
+    "institute_name": "Harris Ltd",
+    "year_of_passing": 2022,
+    "grade": "C",
+    "student_id": 5
+  },
+  {
+    "id": 206,
+    "course_name": "BTech",
+    "institute_name": "Hernandez PLC",
+    "year_of_passing": 2021,
+    "grade": "C",
+    "student_id": 6
+  },
+  {
+    "id": 207,
+    "course_name": "BSc IT",
+    "institute_name": "Hernandez, Miller and Jones",
+    "year_of_passing": 2024,
+    "grade": "A",
+    "student_id": 7
+  },
+  {
+    "id": 208,
+    "course_name": "BA",
+    "institute_name": "Flores-Patrick",
+    "year_of_passing": 2024,
+    "grade": "B",
+    "student_id": 8
+  },
+  {
+    "id": 209,
+    "course_name": "BSc IT",
+    "institute_name": "Henderson Group",
+    "year_of_passing": 2020,
+    "grade": "A",
+    "student_id": 9
+  },
+  {
+    "id": 210,
+    "course_name": "BTech",
+    "institute_name": "Johnson, Baldwin and Allen",
+    "year_of_passing": 2021,
+    "grade": "C",
+    "student_id": 10
+  },
+  {
+    "id": 211,
+    "course_name": "BCom",
+    "institute_name": "Griffith Inc",
+    "year_of_passing": 2022,
+    "grade": "C",
+    "student_id": 11
+  },
+  {
+    "id": 212,
+    "course_name": "BSc IT",
+    "institute_name": "Farrell Inc",
+    "year_of_passing": 2021,
+    "grade": "B",
+    "student_id": 12
+  },
+  {
+    "id": 213,
+    "course_name": "BCom",
+    "institute_name": "Ferguson-Patel",
+    "year_of_passing": 2019,
+    "grade": "A",
+    "student_id": 13
+  },
+  {
+    "id": 214,
+    "course_name": "BSc IT",
+    "institute_name": "Leon-Brooks",
+    "year_of_passing": 2020,
+    "grade": "A",
+    "student_id": 14
+  },
+  {
+    "id": 215,
+    "course_name": "BSc IT",
+    "institute_name": "Miller-Baker",
+    "year_of_passing": 2020,
+    "grade": "C",
+    "student_id": 15
+  },
+  {
+    "id": 216,
+    "course_name": "BTech",
+    "institute_name": "Williams-Carpenter",
+    "year_of_passing": 2019,
+    "grade": "A",
+    "student_id": 16
+  },
+  {
+    "id": 217,
+    "course_name": "BSc IT",
+    "institute_name": "Moore, Flowers and Lewis",
+    "year_of_passing": 2024,
+    "grade": "C",
+    "student_id": 17
+  },
+  {
+    "id": 218,
+    "course_name": "BA",
+    "institute_name": "Hayes, Carlson and Williamson",
+    "year_of_passing": 2022,
+    "grade": "C",
+    "student_id": 18
+  },
+  {
+    "id": 219,
+    "course_name": "BSc IT",
+    "institute_name": "Murray, Franco and Davies",
+    "year_of_passing": 2022,
+    "grade": "B",
+    "student_id": 19
+  },
+  {
+    "id": 220,
+    "course_name": "BTech",
+    "institute_name": "Rivera, Cohen and Garcia",
+    "year_of_passing": 2022,
+    "grade": "C",
+    "student_id": 20
+  }
+]
