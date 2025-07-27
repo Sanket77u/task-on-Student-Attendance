@@ -17,43 +17,43 @@ const routerupdate=require('./routerupdate');
 const routerreport=require('./routerreport');
 //gets of one by one student 
 
-app.get('/studentinfo',router);
+app.use('/show',router);
 
-app.get('/addressinfo',router);
+// app.get('/addressinfo',router);
 
-app.get('/educationinfo',router);
+// app.get('/educationinfo',router);
 
-app.get('/attendanceinfo',router);
+// app.get('/attendanceinfo',router);
 
-// // all student infooo 
-app.get('/allstudentsinfo', router);
+// // // all student infooo 
+// app.get('/allstudentsinfo', router);
 
 
 
 ///posts of one by one 
-app.post('/masterdetails',routerpost);
+app.use('/add',routerpost);
 
-app.post('/addressdetails',routerpost);
+// app.post('/addressdetails',routerpost);
 
-app.post('/educationdetails',routerpost);
+// app.post('/educationdetails',routerpost);
 
-app.post('/attendancedetails',routerpost);
+// app.post('/attendancedetails',routerpost);
 
-// // posts for all
-app.post('/uploadAll',routerpost);
+// // // posts for all
+// app.post('/uploadAll',routerpost);
 
 
-app.delete('/remove/:id',routerdelete);
+app.use('/delete',routerdelete);
 
 
 /// file uplaod through formidable 
 
-app.post('/profilepics',routerpost);
+// app.post('/profilepics',routerpost);
 
 
 // user update valueee 
 
-app.patch('/update/:id/:file/:attribute',routerupdate); 
+app.use('/update',routerupdate); 
 
 
 
@@ -96,21 +96,23 @@ app.patch('/update/:id/:file/:attribute',routerupdate);
 
 //attendance info student with name 
 
-app.get('/report',routerreport);
+app.use('/report',routerreport);
 
 //report 3
 
 
-app.get('/addressreport',routerreport);
+// app.get('/addressreport',routerreport);
 
-app.get('/educationreport',routerreport);
+// app.get('/educationreport',routerreport);
 
 
-/// attendance report with total day present day and absent day 
-app.get('/attendancereport',routerreport);
+// /// attendance report with total day present day and absent day 
+// app.get('/attendancereport',routerreport);
 
 
 app.listen(3440,()=>{
-    console.log("running on 3440");
+    console.log("running on 3440",()=>{
+    console.log("Server is running on port 3440");
+    });
 });
 

@@ -9,7 +9,7 @@ const formidable=require('formidable');
 
 
 
-route.get('/studentinfo',(req,res)=>{
+route.get('/master',(req,res)=>{
     fs.readFile('student_masterinfo.json','utf-8',(err,data)=>{
         if(err){
             res.send("error while showing no data found");
@@ -21,7 +21,7 @@ route.get('/studentinfo',(req,res)=>{
     })
 })
 
-route.get('/addressinfo',(req,res)=>{
+route.get('/address',(req,res)=>{
     fs.readFile('student_addressinfo.json','utf-8',(err,data)=>{
         if(err){
             res.send("error while showing no data found");
@@ -33,7 +33,7 @@ route.get('/addressinfo',(req,res)=>{
     })
 })
 
-route.get('/educationinfo',(req,res)=>{
+route.get('/education',(req,res)=>{
     fs.readFile('student_educationinfo.json','utf-8',(err,data)=>{
         if(err){
             res.send("error while showing no data found");
@@ -45,7 +45,7 @@ route.get('/educationinfo',(req,res)=>{
     })
 })
 
-route.get('/attendanceinfo',(req,res)=>{
+route.get('/attendance',(req,res)=>{
     fs.readFile('student_attendanceinfo.json','utf-8',(err,data)=>{
         if(err){
             res.send("error while showing no data found");
@@ -59,14 +59,14 @@ route.get('/attendanceinfo',(req,res)=>{
 
 
 // all student infooo 
-route.get('/allstudentsinfo', (req, res) => {
+route.get('/all', (req, res) => {
    
     let masterData = [];
     let addressData = [];
     let educationData = [];
     let attendanceData = [];
 
-    fs.readFile('student_masterinfo.json', 'utf-8', (err, data) => {
+    fs.readFile('student_masterinfo.json', 'utf-8', (err, master) => {
         if (err) return res.send("Error reading master info");
 
         masterData = JSON.parse(master);

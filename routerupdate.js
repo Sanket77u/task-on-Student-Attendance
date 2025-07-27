@@ -14,7 +14,7 @@ const { ReadableStreamBYOBRequest } = require('stream/web');
 
 
 
-route.patch('/update/:id/:file/:attribute', (req, res) => {
+route.patch('/:id/:file/:attribute', (req, res) => {
     const id = parseInt(req.params.id);
     const file = req.params.file;
     const attribute = req.params.attribute;

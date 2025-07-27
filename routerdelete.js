@@ -10,7 +10,7 @@ const formidable=require('formidable');
 let completed = 0;
     const deletedFrom = [];
 
-route.delete('/remove/:id', (req, res) => {
+route.delete('/:id', (req, res) => {
     const id = parseInt(req.params.id); 
     const files = [
         'student_masterinfo.json',

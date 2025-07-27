@@ -11,7 +11,7 @@ const { ReadableStreamBYOBRequest } = require('stream/web');
 
 
 
-route.post('/masterdetails',(req,res)=>{
+route.post('/master',(req,res)=>{
     const data=req.body;
    
     fs.writeFile('student_masterinfo.json',JSON.stringify(data),(err)=>{
@@ -27,7 +27,7 @@ route.post('/masterdetails',(req,res)=>{
             
     
 )})
-route.post('/addressdetails',(req,res)=>{
+route.post('/address',(req,res)=>{
     const data=req.body;
     // console.log(data);
     fs.writeFile('student_addressinfo.json',JSON.stringify(data),(err)=>{
@@ -43,7 +43,7 @@ route.post('/addressdetails',(req,res)=>{
             
     
 )})
-route.post('/educationdetails',(req,res)=>{
+route.post('/education',(req,res)=>{
     const data=req.body;
     // console.log(data);
     fs.writeFile('student_educationinfo.json',JSON.stringify(data),(err)=>{
@@ -62,7 +62,7 @@ route.post('/educationdetails',(req,res)=>{
 
 
 
-route.post('/attendancedetails',(req,res)=>{
+route.post('/attendance',(req,res)=>{
     const data=req.body;
     // console.log(data);
     fs.writeFile('student_attendanceinfo.json',JSON.stringify(data),(err)=>{
@@ -116,7 +116,7 @@ route.post('/attendancedetails',(req,res)=>{
 
 /// post of all 
 
-route.post('/uploadAll', (req, res) => {
+route.post('/all', (req, res) => {
   const students = req.body; 
 
   
@@ -172,7 +172,7 @@ students.forEach(student => {
 
 
 
-route.post('/profilepics', (req, res) => {
+route.post('/profilepic', (req, res) => {
   const form = new IncomingForm({
     uploadDir: path.join(__dirname, 'uploads'),
     keepExtensions: true,
