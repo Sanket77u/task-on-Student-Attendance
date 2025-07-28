@@ -15,9 +15,26 @@ const routerpost=require('./routerspost');
 const routerdelete=require('./routerdelete');
 const routerupdate=require('./routerupdate');
 const routerreport=require('./routerreport');
-//gets of one by one student 
 
-app.use('/show',router);
+
+app.use('/show',router); //master,address,attendance,education,all 
+
+app.use('/add',routerpost); //master,address,attendance,education,all,profilepic
+
+app.use('/delete',routerdelete);  //:id
+
+app.use('/update',routerupdate);   //:id/file/attribute
+
+app.use('/report',routerreport);   //master,address,attendance,education,all , week/:number,quarter/:number,month/:number
+
+app.listen(3440,(err)=>{
+    if(err){
+        console.log("error while running server");
+    }
+      console.log("Server is running on port 3440");
+    });
+
+
 
 // app.get('/addressinfo',router);
 
@@ -31,7 +48,7 @@ app.use('/show',router);
 
 
 ///posts of one by one 
-app.use('/add',routerpost);
+
 
 // app.post('/addressdetails',routerpost);
 
@@ -43,7 +60,6 @@ app.use('/add',routerpost);
 // app.post('/uploadAll',routerpost);
 
 
-app.use('/delete',routerdelete);
 
 
 /// file uplaod through formidable 
@@ -53,7 +69,6 @@ app.use('/delete',routerdelete);
 
 // user update valueee 
 
-app.use('/update',routerupdate); 
 
 
 
@@ -96,7 +111,6 @@ app.use('/update',routerupdate);
 
 //attendance info student with name 
 
-app.use('/report',routerreport);
 
 //report 3
 
@@ -110,9 +124,5 @@ app.use('/report',routerreport);
 // app.get('/attendancereport',routerreport);
 
 
-app.listen(3440,()=>{
-    console.log("running on 3440",()=>{
-    console.log("Server is running on port 3440");
-    });
-});
+
 

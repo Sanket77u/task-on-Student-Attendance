@@ -294,13 +294,12 @@ route.get('/attendance', (req, res) => {
 });   
 
 
-route.get('/quarterly/:number', (req, res) => {
+route.get('/quarter/:number', (req, res) => {
     const quarterNumber = parseInt(req.params.number);
-    if (isNaN(quarterNumber) || quarterNumber < 1) {
+    if (quarterNumber < 1) {
         return res.status(400).send("Invalid quarter number");
     }
 
-    // Read both files
     fs.readFile('student_attendanceinfo.json', 'utf-8', (err1, attendanceData) => {
         if (err1) {
             console.error("Error reading attendance file:", err1);
@@ -317,7 +316,6 @@ route.get('/quarterly/:number', (req, res) => {
             const master = JSON.parse(masterData);
             if (attendance.length === 0 || master.length === 0) return res.json([]);
 
-            // Get first date
             const dates = attendance.map(entry => new Date(entry.date));
             const minDate = new Date(Math.min(...dates));
 
@@ -325,15 +323,13 @@ route.get('/quarterly/:number', (req, res) => {
             startDate.setDate(startDate.getDate() + (quarterNumber - 1) * 120);
 
             const endDate = new Date(startDate);
-            endDate.setDate(endDate.getDate() + 119); // 120-day range
+            endDate.setDate(endDate.getDate() + 119);
 
-            // Filter entries within quarter
             const filtered = attendance.filter(entry => {
                 const entryDate = new Date(entry.date);
                 return entryDate >= startDate && entryDate <= endDate;
             });
 
-            // Create summary map
             const summary = {};
             filtered.forEach(entry => {
                 const id = entry.student_id;
@@ -352,7 +348,6 @@ route.get('/quarterly/:number', (req, res) => {
                 else if (status === 'absent') summary[id].absentCount++;
             });
 
-            // Merge with names and add percentage
             const result = Object.values(summary).map(entry => {
                 const student = master.find(s => s.student_id === entry.student_id);
                 const percentage = ((entry.presentCount / entry.totalDays) * 100).toFixed(2);
