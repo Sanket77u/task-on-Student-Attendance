@@ -24,7 +24,7 @@
     "dob": "2003-11-15",
     "email": "robinsonemily@gmail.com",
     "mobile_no": "9565404020",
-    "profile_pic_url": "C:/Users/mahad/Desktop/Express/task main/uploads/mok705w6bjdqfyj20lx6wwnzn.jpg"
+    "profile_pic_url": "https://placekitten.com/100/100"
   },
   {
     "student_id": 4,
@@ -176,6 +176,15 @@
     "last_name": "Kim",
     "dob": "2003-08-10",
     "email": "jason62@hotmail.com",
+    "mobile_no": "1688747440",
+    "profile_pic_url": "https://placeimg.com/100/100/any"
+  },
+  {
+    "student_id": 21,
+    "first_name": "Dal",
+    "last_name": "Kun",
+    "dob": "2003-08-11",
+    "email": "jas62@hotmail.com",
     "mobile_no": "1688747440",
     "profile_pic_url": "https://placeimg.com/100/100/any"
   }

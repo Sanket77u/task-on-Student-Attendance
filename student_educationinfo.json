@@ -158,5 +158,13 @@
     "year_of_passing": 2022,
     "grade": "C",
     "student_id": 20
+  },
+  {
+    "id": 221,
+    "course_name": "BTech",
+    "institute_name": "Rivera, Cohen and Garcia",
+    "year_of_passing": 2022,
+    "grade": "C",
+    "student_id": 21
   }
 ]

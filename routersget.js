@@ -57,8 +57,43 @@ route.get('/attendance',(req,res)=>{
     })
 })
 
+route.get('/:file/:attribute/:value', (req, res) => {
+    
+    const { file, attribute, value } = req.params;
 
-// all student infooo 
+   
+    const allFiles = {
+        master: 'student_masterinfo.json',
+        address: 'student_addressinfo.json',
+        education: 'student_educationinfo.json',
+        attendance: 'student_attendanceinfo.json'
+    };
+
+    const fileName = allFiles[file];
+    if (!fileName) {
+        return res.status(400).send("Invalid file name");
+    }
+
+  
+    fs.readFile(fileName, 'utf-8', (err, data) => {
+        if (err) {
+            return res.status(500).send("Error reading file");
+        }
+
+        const jsonData = JSON.parse(data);
+        const filtered = jsonData.filter(item => item[attribute] == value);
+
+        if (filtered.length === 0) {
+            return res.status(404).send("No matching data found");
+        }
+
+        res.json(filtered);
+    });
+});
+
+
+
+
 route.get('/all', (req, res) => {
    
     let masterData = [];
@@ -101,6 +136,8 @@ route.get('/all', (req, res) => {
         });
     });
 });
+
+
 
 
 module.exports=route;
